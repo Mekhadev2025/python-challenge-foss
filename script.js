@@ -48,7 +48,27 @@ waterbtn.addEventListener('click', function () {
         .then(code => {
             // Manipulate the data and update the description div
             title.innerHTML=`Container with Most Water`
-            descriptionDiv.innerHTML =``;
+            descriptionDiv.innerHTML =`<div>
+            You have been provided with a Python function for solving the "Container With Most Water" problem. However, there's a bug in the code, and the function does not work as expected. Your task is to identify and correct the issue in the code.
+
+Problem Statement:
+
+Given an array of non-negative integers height where each element represents the height of a vertical line on a chart, find two lines that, together with the x-axis, forms a container that can hold the most water.
+
+The function you have been given takes the height list as input and should return the maximum amount of water that can be trapped in such a container. However, the code currently has a bug, and it doesn't return the correct result.
+</div>
+
+<br></br>
+<div>
+
+Identify the issue in the code provided.
+Provide the corrected version of the code that correctly calculates the maximum amount of water that can be trapped in the container.
+Explain the problem you found and how your corrected code addresses it.
+
+
+</div>
+
+`;
             codeInput.innerHTML=code;
         })
         .catch(error => {
@@ -64,7 +84,23 @@ fibbtn.addEventListener('click', function () {
         .then(code => {
             // Manipulate the data and update the description div
             title.innerHTML=`Fibonacci`
-            descriptionDiv.innerHTML =``;
+            descriptionDiv.innerHTML =`<div>
+            
+            You have been provided with a Python function for generating the Fibonacci sequence. However, there's a bug in the code, and the function does not work as expected. Your task is to identify and correct the issue in the 
+            
+                        </div>
+                        <br></br>
+                        <div>
+            
+            
+            Your Task:
+            
+            Identify the issue in the code provided.
+            Provide the corrected version of the code that correctly generates the Fibonacci sequence.
+            Explain the problem you found and how your corrected code addresses it.
+            
+                        </div>
+                        `;
             codeInput.innerHTML=code;
         })
         .catch(error => {
@@ -80,7 +116,21 @@ revbtn.addEventListener('click', function () {
         .then(code => {
             // Manipulate the data and update the description div
             title.innerHTML=`Reverse a String in Python`
-            descriptionDiv.innerHTML =``;
+            descriptionDiv.innerHTML =`
+             <div>
+             You have been provided with a Python function for reversing a string. However, there's a bug in the code, and the function does not work as expected. Your task is to identify and correct the issue in the code.
+
+
+             </div>
+             <br></br>
+
+             <div>
+             Identify the issue in the code provided.
+Provide the corrected version of the code that correctly reverses the string.
+Explain the problem you found and how your corrected code addresses it.
+
+             </div>
+             `;
             codeInput.innerHTML=code;
         })
         .catch(error => {

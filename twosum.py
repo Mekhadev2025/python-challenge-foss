@@ -5,8 +5,6 @@ def two_sum(nums, target):
         if complement in num_dict:
             return [num_dict[complement], i]
         num_dict[num] = i
-    return None
-
 num_dict = [1, 2, 3, 4, 5]  
 target = 7
-print(two_sum(num_dict, target))
+print(two_sum(num_dict, target)
