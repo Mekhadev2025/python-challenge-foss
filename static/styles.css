@@ -141,3 +141,8 @@ p {
   margin-left:5rem;
   text-transform:uppercase;
 }
+
+.opContainer{
+  display:flex;
+  flex-direction:column;
+}
